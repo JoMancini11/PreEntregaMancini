@@ -12,4 +12,4 @@ Vallstore es una aplicación de e-commerce enfocada en trajes de baño, bikinis 
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/vallstore.git
+   git clone https://github.com/JoMancini11/PreEntregaMancini.git
