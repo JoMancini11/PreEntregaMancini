@@ -5,15 +5,15 @@ const productos = [
     price: 20360,
     category: "piscinas",
     description: "Piscina estructural de alta resistencia, ideal para el verano.",
-    img: "https://via.placeholder.com/150",
+    img: "/img/piscina.jpg.webp", // ✅ Cambiado a .webp
   },
   {
     id: 2,
     name: "Bikini Rojo",
     price: 5600,
-    category: "ropa-de-bano", // Categoría combinada
+    category: "ropa-de-bano",
     description: "Bikini rojo de dos piezas, perfecto para la playa.",
-    img: "https://via.placeholder.com/150",
+    img: "/img/bikini-rojo.jpg.webp",
   },
   {
     id: 3,
@@ -21,15 +21,15 @@ const productos = [
     price: 1500,
     category: "accesorios",
     description: "Sombrero amplio para protegerte del sol en verano.",
-    img: "https://via.placeholder.com/150",
+    img: "/img/sombrero.jpg.webp",
   },
   {
     id: 4,
     name: "Traje de Baño Azul",
     price: 7200,
-    category: "ropa-de-bano", // Categoría combinada
+    category: "ropa-de-bano",
     description: "Traje de baño cómodo y elegante.",
-    img: "https://via.placeholder.com/150",
+    img: "/img/traje-bano-azul.jpg.webp",
   },
 ];
 

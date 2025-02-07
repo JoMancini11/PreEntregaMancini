@@ -22,7 +22,8 @@ const NavBar = () => {
           Accesorios
         </Link>
       </div>
-      <CartWidget contador={0} />
+      {/* ✅ Se eliminó la prop "contador={0}" porque CartWidget ahora usa CartContext */}
+      <CartWidget />
     </nav>
   );
 };

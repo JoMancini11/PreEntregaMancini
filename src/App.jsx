@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import ItemListContainer from "./components/ItemListContainer";
 import ItemDetailContainer from "./components/ItemDetailContainer";
+import Checkout from "./components/Checkout"; // ✅ Importa el Checkout
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
           <Route
             path="/item/:id"
             element={<ItemDetailContainer />}
+          />
+          <Route
+            path="/checkout"
+            element={<Checkout />} // ✅ Agrega la ruta para Checkout
           />
         </Routes>
       </div>
